@@ -13,7 +13,7 @@ function NavBar() {
     >
       <div className="flex items-center justify-between px-10 py-8 xl:px-[7vw]">
         <a href="#">
-          <img className="h-auto w-32 xl:w-40" src="./images/nexus-tech.svg" />
+          <img className="h-auto w-32 xl:w-40" src="/images/nexus-tech.svg" />
         </a>
         <ul
           id="navbar-menu"
