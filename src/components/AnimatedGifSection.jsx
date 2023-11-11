@@ -43,10 +43,7 @@ function AnimatedGifSection() {
         >
           <div className="relative bottom-20 text-center">
             <div className="flex flex-col items-center justify-between gap-y-7">
-              <img
-                className="h-40"
-                src="./src/assets/images/undraw_outer_space.svg"
-              />
+              <img className="h-40" src="./images/undraw_outer_space.svg" />
               <div className="flex flex-col items-center justify-start gap-y-2">
                 <span className="text-2xl font-bold">Leading Technology</span>
                 <span>High-end and bleeding edge technology.</span>
@@ -55,10 +52,7 @@ function AnimatedGifSection() {
           </div>
           <div className="relative bottom-20 text-center">
             <div className="flex flex-col items-center justify-between gap-y-7">
-              <img
-                className="h-40"
-                src="./src/assets/images/undraw_launching.svg"
-              />
+              <img className="h-40" src="./images/undraw_launching.svg" />
               <div className="flex flex-col items-center justify-start gap-y-2">
                 <span className="text-2xl font-bold">Reach for the Stars</span>
                 <span>
@@ -69,10 +63,7 @@ function AnimatedGifSection() {
           </div>
           <div className="relative bottom-20 text-center">
             <div className="flex flex-col items-center justify-between gap-y-7">
-              <img
-                className="h-40"
-                src="./src/assets/images/undraw_fast_loading.svg"
-              />
+              <img className="h-40" src="./images/undraw_fast_loading.svg" />
               <div className="flex flex-col items-center justify-start gap-y-2">
                 <span className="text-2xl font-bold">Ultra Fast Service</span>
                 <span>
@@ -83,10 +74,7 @@ function AnimatedGifSection() {
           </div>
           <div className="relative bottom-20 text-center">
             <div className="flex flex-col items-center justify-between gap-y-7">
-              <img
-                className="h-40"
-                src="./src/assets/images/undraw_friends.svg"
-              />
+              <img className="h-40" src="./images/undraw_friends.svg" />
               <div className="flex flex-col items-center justify-start gap-y-2">
                 <span className="text-2xl font-bold">Eco Friendly</span>
                 <span>55% carbon footprint reduction by the end of 2023.</span>
@@ -103,10 +91,7 @@ function AnimatedGifSection() {
             <swiper-container init="false" ref={swiperElement}>
               <swiper-slide>
                 <div className="flex flex-col items-center justify-between gap-y-7 pb-10 text-center">
-                  <img
-                    className="h-40"
-                    src="./src/assets/images/undraw_outer_space.svg"
-                  />
+                  <img className="h-40" src="./images/undraw_outer_space.svg" />
                   <div className="flex flex-col items-center justify-start gap-y-2">
                     <span className="text-2xl font-bold">
                       Leading Technology
@@ -117,10 +102,7 @@ function AnimatedGifSection() {
               </swiper-slide>
               <swiper-slide>
                 <div className="flex flex-col items-center justify-between gap-y-7 pb-10 text-center">
-                  <img
-                    className="h-40"
-                    src="./src/assets/images/undraw_launching.svg"
-                  />
+                  <img className="h-40" src="./images/undraw_launching.svg" />
                   <div className="flex flex-col items-center justify-start gap-y-2">
                     <span className="text-2xl font-bold">
                       Reach for the Stars
@@ -135,7 +117,7 @@ function AnimatedGifSection() {
                 <div className="flex flex-col items-center justify-between gap-y-7 pb-10 text-center">
                   <img
                     className="h-40"
-                    src="./src/assets/images/undraw_fast_loading.svg"
+                    src="./images/undraw_fast_loading.svg"
                   />
                   <div className="flex flex-col items-center justify-start gap-y-2">
                     <span className="text-2xl font-bold">
@@ -149,10 +131,7 @@ function AnimatedGifSection() {
               </swiper-slide>
               <swiper-slide>
                 <div className="flex flex-col items-center justify-between gap-y-7 pb-10 text-center">
-                  <img
-                    className="h-40"
-                    src="./src/assets/images/undraw_friends.svg"
-                  />
+                  <img className="h-40" src="./images/undraw_friends.svg" />
                   <div className="flex flex-col items-center justify-start gap-y-2">
                     <span className="text-2xl font-bold">Eco Friendly</span>
                     <span>
