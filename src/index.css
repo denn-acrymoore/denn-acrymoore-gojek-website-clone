@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =============== NavBar CSS =============== */
+/* Same or bigger than Tailwind CSS "xl" size. */
+@media only screen and (min-width: 1280px) {
+  #navbar.navbar--bg-invisible {
+    background-color: transparent;
+  }
+
+  #navbar.navbar--hidden {
+    transform: translate(0, -10rem);
+  }
+}
+
+/* Smaller than Tailwind CSS "xl" size. */
+@media only screen and (max-width: 1280px) {
+  #navbar.navbar--bg-invisible:not(.navbar--burger-active) {
+    background-color: transparent;
+  }
+
+  #navbar.navbar--hidden:not(.navbar--burger-active) {
+    transform: translate(0, -10rem);
+  }
+
+  #navbar.navbar--burger-active {
+    height: 100vh;
+  }
+
+  #navbar.navbar--burger-active #burger-line-top {
+    transform: translate(0, 9px) rotate(45deg);
+  }
+
+  #navbar.navbar--burger-active #burger-line-middle {
+    opacity: 0;
+  }
+
+  #navbar.navbar--burger-active #burger-line-bottom {
+    transform: translate(0, -9px) rotate(-45deg);
+  }
+
+  #navbar:not(.navbar--burger-active) #burger-menu {
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  body.navbar--burger-active {
+    overflow-y: hidden;
+  }
+}
+
+/* =============== Animated Gif Section CSS =============== */
+:root {
+  --swiper-pagination-color: #00880d;
+  --swiper-theme-color: #00880d;
+}
